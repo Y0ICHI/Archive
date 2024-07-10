@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+int main(){
+	short mese, giorno;
+	cout << "dammi il mese" <<endl;
+	cin >> mese;
+	switch (mese){
+		case 1:
+		case 2:
+			cout << "è inverno" << endl;
+			break;
+		case 3:
+			cout << "dammi il giorno" <<endl;
+			cin >> giorno;
+			if(giorno<=0 or giorno >31)
+				cout << "valore giorno non valido" <<endl;
+			else if(giorno >= 21)
+				cout << "è primavera" <<endl;
+			else
+				cout << "è inverno" <<endl; 
+			break;
+		case 4:
+		case 5:
+			cout << "è primavera" << endl;
+			break;
+		case 6:
+			cout << "dammi il giorno" <<endl;
+			cin >> giorno;
+			if(giorno<=0 or giorno >30)
+				cout << "valore giorno non valido" <<endl;
+			else if(giorno >= 21)
+				cout << "è estate" <<endl;
+			else
+				cout << "è primavera" <<endl; 
+			break;
+		case 7:
+		case 8:
+			cout << "è estate" << endl;
+			break;
+		case 9:
+			cout << "dammi il giorno" <<endl;
+			cin >> giorno;
+			if(giorno<=0 or giorno >30)
+				cout << "valore giorno non valido" <<endl;
+			else if(giorno >= 21)
+				cout << "è autunno" <<endl;
+			else
+				cout << "è estate" <<endl; 
+			break;
+		case 10:
+		case 11:
+			cout << "è autunno" << endl;
+			break;
+		case 12:
+			cout << "dammi il giorno" <<endl;
+			cin >> giorno;
+			if(giorno<=0 or giorno >31)
+				cout << "valore giorno non valido" <<endl;
+			else if(giorno >= 21)
+				cout << "è inverno" <<endl;
+			else
+				cout << "è autunno" <<endl; 
+			break;
+		default:
+			cout << "valore mese non valido!" <<endl;
+	}
+	}

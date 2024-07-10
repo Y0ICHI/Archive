@@ -1,0 +1,9 @@
+Definire e caricare una matrice quadrata la cui dimensione non può superare 20. X
+
+Copiare in un vettore tutti gli elementi che si trovano sulle diagonali della matrice. X
+
+Trasferire in un altro vettore tutti gli elementi per perimetro della matrice. X
+
+Copiare in un altro vettore tutti gli elementi pari che si trovano nella matrice. X
+
+Copiare in un altro vettore tutti gli elementi che si trovano sulle colonne dispari della matrice. X
